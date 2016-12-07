@@ -23,9 +23,9 @@
   </head><!--/head-->
   <body>
     <!-- Inserte código aqui -->
-    <nav class="navbar navbar-default navbar-inverse "> <!--menudespegable-->
+    <nav class="navbar navbar-default navbar-inverse nave "> <!--menudespegable-->
         <div class=navbar-header>
-            <a href=""><img src="img/logo.png"></a>
+            <a href=""><img src="img/logo.png" class="log"></a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -34,49 +34,213 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right"> <!--elementosdelmenu-->
-                <li role="presentation" ><a href="#">Home</a></li>
-                <li role="presentation"><a href="#" >About Us</a></li>
-                <li role="presentation"><a href="#" >Services</a></li>
-                <li role="presentation"><a href="#" >Portfolio</a></li>
-                <li role="presentation" class="active"><a href="#" >Blog</a></li>
-                <li role="presentation"><a href="#" >Contact</a></li>
+                <li role="presentation" ><a href="index.html" target="_blank">Home</a></li>
+                <li role="presentation"><a href="about-us.html" target="_blank">About Us</a></li>
+                <li role="presentation"><a href="services.html" target="_blank">Services</a></li>
+                <li role="presentation"><a href="portfolio.html" target="_blank">Portfolio</a></li>
+                <li role="presentation" class="active"><a href="blog.html" target="_blank" >Blog</a></li>
+                <li role="presentation" target="_blank"><a href="#" >Contact</a></li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row intro pa">
             <div class="col-md-8">
-                <h2>Blog</h2>
-                <p>T.S. ELIOT TRADITION AND THE INDIVIDUAL TALENT</p>
+                <h3 class="blanco iz pp ">Blog</h3>
+                <p class="blanco iz bot">T.S. ELIOT TRADITION AND THE INDIVIDUAL TALENT</p>
             </div>
-            <div class="col-md-4">
-                <a href="">Home/</a>
-                <a href="">Blog</a>
+            <div class="col-md-4 pp">
+                <a href="" class="blanco  iz">Home/</a>
+                <a href="" class="blanco ">Blog</a>
             </div>
         </div>
-        <div class="row">
+        <div class="row gr">
             <div class="col-md-8">
                 <section>
-                    <div>
-                        <img src="img/Eliot.jpg">
+                    <div class="pp izq">
+                        <img src="img/Eliot1.jpg" class="eliot">
                         <p>Perhaps they are; but we might remind ourselves that criticism is as inevitable as breathing, and that we should be none the worse for articulating what passes in our minds when we read a book and feel an emotion about it, for criticizing our own minds in their work of criticism. One of the facts that might come to light in this process is our tendency to insist, when we praise a poet, upon those aspects of his work in which he least resembles anyone else. In these aspects or parts of his work we pretend to find what is individual, what is the peculiar essence of the man.</p>
                         <button>Read More</button>
                     </div>
                 </section>
+                <section>
+                    <div class="pp izq">
+                        <img src="img/Eliot1.jpg" class="eliot">
+                        <p>Perhaps they are; but we might remind ourselves that criticism is as inevitable as breathing, and that we should be none the worse for articulating what passes in our minds when we read a book and feel an emotion about it, for criticizing our own minds in their work of criticism. One of the facts that might come to light in this process is our tendency to insist, when we praise a poet, upon those aspects of his work in which he least resembles anyone else. In these aspects or parts of his work we pretend to find what is individual, what is the peculiar essence of the man.</p>
+                        <button>Read More</button>
+                    </div>
+                </section>
+                <nav aria-label="Page navigation" class="centrado">
+                    <ul class="pagination ">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             <div class="col-md-4">
-                <aside>
-                    <div class="col-lg-6">
-    <div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-danger" type="button">
-            <i class="glyphicon glyphicon-search "></i>
-        </button>
-      </span>
-      <input type="text" class="form-control" placeholder="Search for...">
-    </div><!-- /input-group -->
-  </div>
+                <aside class="arriba">
+                    <div class="input-group lelo">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">
+                                <i class="glyphicon glyphicon-search "></i>
+                            </button>
+                        </span>
+                    </div><!-- /input-group -->
+                    <div class="row pp">
+                        <div class="col-md-6">
+                            <img src="img/ads/ad1.png" class="ad pp">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/ads/ad2.png" class="ad pp">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/ads/ad3.png" class="ad pp">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/ads/ad4.png" class="ad pp">
+                        </div>
+                    </div>
                 </aside>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="funciona pp iz">Blog Categories</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Development<br>T.S.Eliot<br>Nick Cave <br>Lope de Vega <br>James Joyce</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Hermann Hesse <br> Thomas Wolfe <br>Hunter S. Thompson <br>Pj Harvey <br>Albert Camus</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="funciona pp iz">Tag Cloud</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <button type="button" class="btn btn-primary btn-xs">Cavernas</button>
+                            <button type="button" class="btn btn-primary btn-xs">Oh mama</button>
+                            <button type="button" class="btn btn-primary btn-xs">beautiful</button>
+                            <button type="button" class="btn btn-primary btn-xs">go tell the women</button>
+                            <button type="button" class="btn btn-primary btn-xs">grinderman</button>
+                            <button type="button" class="btn btn-primary btn-xs">Midnightman</button>
+                            <button type="button" class="btn btn-primary btn-xs">hey hey hey</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="funciona pp iz">Facebook Fanpage</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <section > <!--seccion mam que no entiendo-->
+            <div class="row blanco nave  ">
+                <div class="col-md-3 col-sm-12">
+                    <p class="funciona blanco">About Us</p>
+                    <p class="blanco">launch her off the face of the world o you know/one day I’ll come back/& hold on to yourself o baby I’m a 1000 miles away I just don’t know what to say</p>
+                    <p class="blanco">cause Jesus only loves a man who bruises</p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="funciona blanco">Company</p>
+                    <p class="blanco">but darling we can clearly see</p>
+                    <p class="blanco">it’s all life & fire & lunacy</p>
+                    <p class="blanco">& excuses </p>
+                    <p class="blanco"> & excuses</p>
+                    <p class="blanco">& excuses</p>
+                    <p class="blanco">if I could, </p>
+                    <p class="blanco">I would/</p>
+                    <p class="blanco"> I’d lie right down</p>
+                    <p class="blanco"> & hold on to yourself</p>
+                    <p class="blanco">one day</p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="funciona blanco">Latest Blog</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/blog/thumb1.jpg">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="blanco">I’ll come back to you & I’ll lie down & I’ll hold on to yourself</p>
+                            <p class="blanco">Posted XXI</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/blog/thumb2.jpg">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="blanco">I’ll come back to you & I’ll lie down & I’ll hold on to yourself </p>
+                            <p class="blanco">posted XXI</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/blog/thumb3.jpg">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="blanco">I’ll come back to you & I’ll lie down & I’ll hold on to yourself</p>
+                            <p class="blanco">posted XXI</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <p class="funciona blanco">Address</p>
+                    <p class="blanco">Twitter,inc.</p>
+                    <p class="blanco">750 folsom blues, suite 666</p>
+                    <p class="blanco">San Francisco, CA 78235</p>
+                    <p class="blanco">P:673598054092</p>
+                    <p class="funciona blanco">Newsletter</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>    
+                </div>
+            </div>
+        </section>
+        <section class="fot ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="blanco">© 2013 ShapeBootstrap. All Rights</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="blanco center" href="#!">Home</a> 
+                    </div>
+                    <div class="col-md-2">
+                        <a class="blanco" href="#!">About Us</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="blanco center" href="#!">Contact Us</a>
+                    </div>
+                </div>
+        </section>
+    
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
